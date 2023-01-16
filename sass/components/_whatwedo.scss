@@ -1,0 +1,54 @@
+@import "../utils/vars";
+
+.whatwedo{
+  list-style-type: none;
+    text-decoration: none;
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+
+&__text{
+    font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1, 17;
+  text-align: center;
+  padding-bottom: 50px;
+}
+&__img{
+  list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-basis: calc((100% - 60px) / 3);
+}
+&__img--box{
+    position: relative;
+  width: 370px;
+  height: 270px;
+  overflow: visible;
+}
+&__img--text{
+    position: absolute;
+    width: 370px;
+    height: 70px;
+    background-color: rgba(47, 48, 58, 0.8);
+    bottom: -9%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+&__img--text>p{
+    color:#FFFFFF;
+    font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+}
+

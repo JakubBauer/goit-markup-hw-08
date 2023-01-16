@@ -1,0 +1,80 @@
+@import "../utils/vars";
+
+.team{
+  list-style-type: none;
+    text-decoration: none;
+    background-color: $teamColor;
+    padding-top: 94px;
+padding-bottom: 94px;
+
+&__name{
+    font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1, 17;
+  text-align: center;
+  padding-top: 94px;
+  padding-bottom: 50px;
+}
+&__img{
+    display: flex;
+    width: 1200px;
+    gap: 30px;
+    padding: 0;
+  }
+&__img--list{
+  list-style-type: none;
+    text-decoration: none;
+    width: 270px;
+    height: 428px;
+    background-color: #fff;
+    flex-basis: calc((100% - 90px) / 4);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+&__img--fit{
+    margin: 0;  
+}
+&__img--element{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+&__signature{
+    background-color: #fff;
+}
+&__img--name{
+    font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  text-align: center;
+  margin: 0 ;
+  padding-top: 30px;
+}
+&__img--text{
+    margin: 0px;
+    text-align: center;
+    padding-top: 10px;
+}
+&__social{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; 
+}
+&__social--svg{
+    background-color: #fff;
+    fill: $spiritColor;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+&__social--svg:hover,
+&__social--svg:focus{
+    background-color: $activeColor;
+    border-radius: 50%;
+    fill: #fff;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}

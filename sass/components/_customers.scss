@@ -1,0 +1,32 @@
+@import "../utils/vars";
+
+.customers{
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    &__section--name{
+        text-align: center;
+  padding-top: 94px;
+  padding-bottom: 50px;
+    }
+    &__logo{
+        fill:$spiritColor;
+        border-radius: 4px;
+        border: 1px solid rgba(175, 177, 184, 1);
+        border-radius: 4px;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    &__logo:hover,
+    &__logo:focus{
+        fill: $activeColor;
+        border-color: $activeColor;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+}

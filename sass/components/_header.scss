@@ -1,0 +1,80 @@
+@import "../utils/vars";
+.header{
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    text-align: center;
+    align-items: baseline;
+    height: 80px;
+    border-bottom: 1px solid;
+    border-color:$headerBorder;
+
+
+    &__logo{
+        text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  cursor: pointer;
+  color: $nameheaderColor;
+}
+
+    &__logo--firstpart{
+        color: $logoColor ;
+    }
+    &__contact{
+        list-style-type: none;
+        text-decoration: none;
+        display: inline-flex;
+        gap: 50px;
+        padding-left: 345px;
+        color: #000;
+    }
+    &__contact--list{
+        list-style-type: none;
+        text-decoration: none;
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        text-decoration: none;
+        color: #757575;
+        font-size: 14px;
+        line-height: 1.14;
+        cursor: pointer;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        justify-content: flex-end;
+    }
+    &__contact--element{
+        list-style-type: none;
+        text-decoration: none;
+    }
+    &__contact--icon{
+        fill: currentColor;
+        margin-right: 10px;
+    }
+&__contact--list:focus,
+&__contact--list:hover{
+    color: $activeColor;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
