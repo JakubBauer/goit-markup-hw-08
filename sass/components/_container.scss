@@ -1,0 +1,71 @@
+
+
+.container {
+
+  max-width:480px;
+  @media(min-width:768px){
+    max-width:768px;
+  }
+  
+@media(min-width:1200px){
+  max-width: 1200px; }
+  
+  &__header {
+    width:100%;
+    
+  display: flex;
+ align-items: center;
+ justify-content: center;
+ }
+
+  
+  &__main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;}
+  margin:0 auto;
+  
+  &__job{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;}
+  
+  &__team{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+  
+  &__clients{
+  display: flex;;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;}
+  
+  &__footer{
+
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    width:100%;
+    max-width:480px;
+
+    @media(min-width:768px){
+      max-width:768px;
+    }
+    
+
+
+    @media(min-width:1200px){
+  max-width:1200px;
+  width:unset;
+    }
+  }
+  
+  &__portfolio{
+  display: flex;
+  align-items: center;
+  justify-content: center; }}
