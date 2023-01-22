@@ -19,8 +19,6 @@ font-family: "Roboto", sans-serif;
 font-weight: 400;
 color: var(--black);
 }
-/* ------------------------------- HEADER START--------------------- */
-
 .container {
 width: 1200px; } 
 
@@ -122,8 +120,7 @@ color: var(--light-blue);}
 fill: var(--grey);
 margin-right:10px;}
 
-/* ------------------------------- HEADER END--------------------- */
-/* ------------------------------- HERO START--------------------- */
+
 .hero {
 display: flex;
 padding-top: 94px;
@@ -170,9 +167,6 @@ align-items: center
 }
 
 
-/* ------------------------------- HERO END--------------------- */
-
-/* ------------------------------- LOREM START--------------------- */
 
 .lorem{
 padding-top: 94px;
@@ -201,10 +195,6 @@ font-size: 14px;
 line-height: 1.71;
 color: var(--grey);
 letter-spacing: 0.03em;}
-
-/* ------------------------------- LOREM END--------------------- */
-
-/* ------------------------------- JOB START--------------------- */
 
 .container__job{
 display: flex;
@@ -252,10 +242,7 @@ padding-bottom:27px;
 width:370px;
 left:0;
 bottom:0}
- 
-/* ------------------------------- JOB END--------------------- */
 
-/* ------------------------------- TEAM START--------------------- */
 
 .container__team{
 display: flex;
@@ -326,12 +313,6 @@ fill: var(--white);}
 background-color:var(--light-blue);
 border-radius:50%;
 transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
-  
-/* ------------------------------- TEAM END--------------------- */
-
-
-/* ------------------------------- CLIENTS START--------------------- */
-
 .container__clients{
 width:1200px;
 display: flex;;
@@ -370,10 +351,6 @@ cursor:pointer;}
 .clients__logo:focus svg{
 fill:var(--light-blue);
 transition:fill 250ms cubic-bezier(0.4, 0, 0.2, 1);}
-
-/* ------------------------------- CLIENTS END--------------------- */
-
-/* ------------------------------- FOOTER START--------------------- */
 
 
 .container__footer{
@@ -516,9 +493,6 @@ margin-left:24px;
 position: absolute;
 top:30%; }
 
-/* ------------------------------- FOOTER END--------------------- */
-
-/* ------------------------------- MODAL START--------------------- */
 
 .overlay{
 display:flex;
@@ -691,9 +665,7 @@ line-height: 1,875;
 letter-spacing: 0.06em;
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
-/* -------------------------------- MODAL END-------------------------------------------- */
-  
-/* -------------------------------- PORTFOLIO START-------------------------------------------- */
+
 
 
 .portfolio{ 
@@ -797,5 +769,3 @@ font-size: 16px;
 line-height: 1.88;
 color: var(--grey);
 padding-bottom:16px;}
-
-/* -------------------------------- PORTFOLIO END-------------------------------------------- */
