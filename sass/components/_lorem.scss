@@ -14,6 +14,7 @@
     list-style-type:none;
     padding-right:15px;
     padding-left:15px;
+    padding-bottom: 30px;
     gap:30px;}
     
     &__links li{ width:100%;
@@ -47,7 +48,6 @@
     line-height: 1.71;
     color:$grey;
     letter-spacing: 0.03em;
-    margin-bottom:60px;
 
 @media(min-width:1200px){
     margin-bottom:unset;
